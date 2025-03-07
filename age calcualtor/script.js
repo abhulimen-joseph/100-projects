@@ -11,8 +11,8 @@ calAge.addEventListener('click', ()=>{
     let ageValue = today.getFullYear() - dobValue.getFullYear();
     let month = today.getMonth() - dobValue.getMonth();
     if(month < 0 || (month === 0 && today.getDate() < dobValue.getDate())){
-        ageValue--;
+        ageValue--; 
     }
-    displayAge.innerHTML = `Your age is ${ageValue}`;
-    age.value = ageValue;
+    displayAge.style.visibility = "visible";
+    age.innerText = `Your age is ${ageValue} years old`;
 });

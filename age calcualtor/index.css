@@ -63,7 +63,7 @@ button:hover{
     font-weight: bold;
 }
 
-#displayAge{
+#displayage{
     display:flex;
     align-items: center;
     justify-content: center;
